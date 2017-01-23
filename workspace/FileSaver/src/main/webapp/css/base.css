@@ -1,0 +1,57 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 8px;
+	border-bottom: 2px solid black;
+	background-color: #d3d3d3;
+	margin: 0;
+	border-bottom: 2px solid black;
+}
+
+.header h2 {
+	color: navy;
+	font-weight: bold;
+	display: inline;
+}
+
+.loginbox {
+	display: inline;
+	float: right;
+}
+.logoutButton {
+	float: right;
+	margin-right: 10px;
+}
+
+.userManager {
+	margin-right: 15%;
+	font-size: 120%;
+}
+
+.logoutButton input[type="submit"] {
+	font-size: 120%;
+}
+.loginText {
+	margin-right: 3%;
+	margin-left: 3%;
+	float: right;
+	font-size: 130%;
+}
+
+.floatRight {
+	float: right;
+}
+
+.clearBoth {
+	clear: both;
+}

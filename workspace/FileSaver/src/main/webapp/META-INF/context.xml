@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Context>
+	
+	<Resource name="jdbc/mysql" auth="Container" type="javax.sql.DataSource"
+		driverClassName="com.mysql.jdbc.Driver" url="jdbc:mysql://localhost:3306/filesaver"
+		username="root" password="root" maxActive="20" maxIdle="10"
+		maxWait="-1" />
+	<ResourceLink global="jdbc/mysql" name="jdbc/mysql"
+		type="javax.sql.DataSource" />
+</Context>
